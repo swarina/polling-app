@@ -5,9 +5,6 @@ admin.site.site_header = "Poll App"
 admin.site.site_title = "Poll App Administration"
 admin.site.index_title = "Welcome to the Admin Area"
 
-# admin.site.register(Question)
-# admin.site.register(Choice)
-
 class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
